@@ -18,20 +18,20 @@ function App() {
             main: '#131052', // dark blue
           },
           text: {
-            primary: darkMode ? '#e1dddd' : '#000000', // default text color white in dark mode, black in light mode
-            secondary: darkMode ? '#ffffff' : '#757575', // secondary text color grey in dark mode, white in light mode
+            primary: darkMode ? '#e1dddd' : '#000000', // white in dark mode, black in light mode
+            secondary: darkMode ? '#ffffff' : '#757575', //  grey in dark mode, white in light mode
             third: '#79839b',
           },
           background: {
-            default: darkMode ? '#141b2e' : '#f5f8ff', // default background color: dark grey in dark mode, white in light mode
-            paper: darkMode ? '#1d2a4a' : '#ffffff', // background color for paper components: darker grey in dark mode, light grey in light mode
+            default: darkMode ? '#141b2e' : '#f5f8ff',  
+            paper: darkMode ? '#1d2a4a' : '#ffffff',
           },
-          action: {
-            // active: darkMode ? '#bb86fc' : '#001f3f', // active color for icons and buttons: purple in dark mode, darker blue in light mode
-            active: '#0676f8',
-            // hover: darkMode ? '#3700b3' : '#007bff', // hover color for buttons: darker purple in dark mode, light blue in light mode
-            hover: '#00aeff',
-          },
+          // action: {
+          //   // active: darkMode ? '#bb86fc' : '#001f3f', 
+          //   active: '#0676f8',
+          //   // hover: darkMode ? '#3700b3' : '#007bff', 
+          //   hover: '#00aeff',
+          // },
         },
       }),
     [darkMode]
